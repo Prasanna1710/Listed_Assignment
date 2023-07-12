@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">OpeningAppTask</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="prasanna_v">Prasanna V</string>
+    <string name="today_s_clicks">Today\'s Clicks</string>
+    <string name="top_location">Top Location</string>
+    <string name="top_source">Top Source</string>
+    <string name="todo">TODO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
