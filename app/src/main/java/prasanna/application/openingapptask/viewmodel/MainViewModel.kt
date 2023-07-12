@@ -14,7 +14,6 @@ class MainViewModel(private val repository: AppRepository) : ViewModel(){
             repository.getOpeningAppDataFromRepo()
         }
     }
-
     val vmOpeningAppLiveData: LiveData<OpeningAppData>
         get() =repository.openingAppLiveData
 }
