@@ -53,6 +53,10 @@ class MainActivity : AppCompatActivity() {
                 topSource = it.top_source
                 todayClicks = it.total_clicks
 
+                binding.topSourcetv.text = topSource
+                binding.topLocationTv.text = topLocation
+                binding.todayTotalClicksTv.text = todayClicks.toString()
+
                 Toast.makeText(
                     this@MainActivity,
                     "Success",
